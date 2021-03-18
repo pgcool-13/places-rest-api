@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  placeAPI:
+    image: placerestapi
+    container_name: springbootapi
+    build:
+      args:
+        - PORT=8080
+      context: .
+    ports:
+      - "8080:8080"
