@@ -12,11 +12,12 @@ Security Layer does not need to be implemented.
 
 Tools and technologies used:
 1. Java 8 (Language)
-2. SpringBoot (Framework)
-3. Lombok (Remove boilerplate code)
-4. JUnit and Mockito (Unit testing)
-5. Rest-assured (API testing)
-6. OpenAPI (API documentation)
+2. Maven (Dependency management)
+3. SpringBoot (Framework)
+4. Lombok (Remove boilerplate code)
+5. JUnit and Mockito (Unit testing)
+6. Rest-assured (API testing)
+7. OpenAPI (API documentation)
 
 Steps to configure for running the project:
 docker-compose build
